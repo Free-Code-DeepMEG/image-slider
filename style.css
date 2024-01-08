@@ -81,6 +81,7 @@ h1{
     color: white;
     text-transform: uppercase;
     transition: 0.7s ease;
+    display: none;
 }
 
 .details p{
@@ -92,6 +93,7 @@ h1{
     color: white;
     text-transform: uppercase;
     transition: 0.7s ease;
+    display: none;
 }
 
 .slider-img.active{
@@ -101,4 +103,8 @@ h1{
 
 .slider-img .active h1{
     display: none;
+}
+
+.slider-img.active .details p, .sliderimg.active .details h2{
+    display: block;
 }
