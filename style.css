@@ -65,3 +65,31 @@ h1{
     transform: rotate(270deg);
     transition: 0.7s ease;
 }
+
+.details{
+    position: absolute;
+    bottom: 43px;
+    left: 43px;
+}
+
+.details h2{
+    font-family: "Jost", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 44px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.7s ease;
+}
+
+.details p{
+    font-family: "Jost", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    line-height: 33px;
+    color: white;
+    text-transform: uppercase;
+    transition: 0.7s ease;
+}
