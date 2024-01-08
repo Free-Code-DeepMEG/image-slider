@@ -93,3 +93,12 @@ h1{
     text-transform: uppercase;
     transition: 0.7s ease;
 }
+
+.slider-img.active{
+    width: 766px !important;
+    height: 750px !important;
+}
+
+.slider-img .active h1{
+    display: none;
+}
